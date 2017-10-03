@@ -1,5 +1,4 @@
-
-# Ali HASAN
+Ali HASAN :)
 
 ## Qui suis-je ?
 Je m'appelle Ali, j'ai 26 ans.
