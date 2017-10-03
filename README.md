@@ -1,3 +1,6 @@
+---
+permalink: index.html
+---
 ## Ali HASAN :)
 
 ## Qui suis-je ?
