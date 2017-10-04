@@ -17,6 +17,7 @@ h1 {
 }
 
 .partie1 {
+  padding : 20%;
   background-color: burlywood;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
@@ -29,6 +30,7 @@ h1 {
 }
 
 .partie2 {
+  padding : 20%;
   background-color: burlywood;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
