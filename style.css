@@ -90,6 +90,6 @@ form {
     text-align: center;
 }
 
-burger {
-  width= 200px;
+.burger {
+  max-width= 500px;
 }
