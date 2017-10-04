@@ -25,3 +25,5 @@ J'ai aussi quelques défauts : j'ai des fois du mal à gérer mon stresse et j'a
 ## Demain
 
 - Mon projet professionnel, c'est d'intégrer une équipe travaillant dans le numérique notamment sur des sites web et des applications, leur apporter de mon expérience et apprendre de leurs expériences.
+
+[Contactez-moi](contact.html)
