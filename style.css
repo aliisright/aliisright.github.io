@@ -91,5 +91,5 @@ form {
 }
 
 .burger {
-  padding : 100px;
+  max-width= 300px;
 }
