@@ -9,11 +9,11 @@
   <body>
     <h1>Commandez votre burger!</h1>
     
-    <form method="post">
-      <div class="partie1">Prénom NOM <input type="text" name="nom"><br>
-      Adresse <input type="text" name="adress"><br>
-      Tel <input type= "tel" name="téléphone"><br>
-      Email <input type="text" name="email"><br>
+    <form action="https://formspree.io/alihasan.me@me.com" method="post">
+      <div class="partie1">Prénom NOM <input type="text" name="contact"><br>
+      Adresse <input type="text" name="contact"><br>
+      Tel <input type= "tel" name="contact"><br>
+      Email <input type="email" name="contact"><br>
       </div>
       
      <div class="composants">
@@ -25,19 +25,11 @@
       </div> 
       
       <div class="partie2">
-      Coisissez votre burger<br>
-      <input type="radio" name="viande" value="bœuf" checked> Bœuf
-      <input type="radio" name="viande" value="poisson"> Poisson
-      <input type="radio" name="viande" value="poulet"> Poulet<br>
-      Personnalisez votre sandwich<br>
-      <input type="checkbox" name="ing" value="tomate"> Tomate
-      <input type="checkbox" name="ing" value="salade"> Salade
-      <input type="checkbox" name="ing" value="oignon"> Oignon
-      <input type="checkbox" name="ing" value="avec-frites"> + frites
-      <br>
+      Votre message <br>
+          <textarea name="contact" value="" rows="5" cols="50"></textarea>
       </div>
       
-      <div class="submit"><input type="submit" name="commander" value="Passer la commande"></div>
+      <div class="submit"><input type="submit" name="contact" value="Submit"></div>
     </form>
   </body>
 </html>
