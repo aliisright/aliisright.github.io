@@ -76,7 +76,6 @@ h1 {
 }
 
 .salade {
-  background-color:linear-gradient(45deg, blue, red);
   background-color: greenyellow;
   border-bottom: 7px solid darkgreen;
   border-radius: 15%
