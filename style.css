@@ -7,7 +7,6 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: #444;
-  
 }
 
 h1 {
@@ -24,7 +23,7 @@ h1 {
   border: 0.5px solid #cc9b77;
   border-top: 10px solid #b4730c;
   border-bottom: 10px solid #b4730c;
-  height: 70px;
+  height: 10px;
 }
 
 .partie2 {
@@ -36,7 +35,7 @@ h1 {
   border: 0.5px solid #cc9b77;
   border-top: 10px solid #b4730c;
   border-bottom: 10px solid #b4730c;
-  height: 70px;
+  height: 10px;
 }
 
 .composants * {
