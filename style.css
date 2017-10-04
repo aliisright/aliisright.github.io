@@ -7,7 +7,8 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   color: #444;
-  
+  max-width: 50%;
+  max-height: 50%;
   margin: auto;
 }
 
@@ -86,5 +87,5 @@ form {
 }
 
 .burger {
-  max-width= 300px;
+  
 }
