@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Commandez un burger</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Commandez votre burger!</h1>
+    
+    <form method="post">
+      <div class="partie1">Prénom NOM <input type="text" name="nom"><br>
+      Adresse <input type="text" name="adress"><br>
+      Tel <input type= "tel" name="téléphone"><br>
+      Email <input type="text" name="email"><br>
+      </div>
+      
+     <div class="composants">
+        <div class="fromage"></div>
+        <div class="oignon"></div>
+        <div class="viande"></div>
+        <div class="tomate"></div>
+        <div class="salade"></div>
+      </div> 
+      
+      <div class="partie2">
+      Coisissez votre burger<br>
+      <input type="radio" name="viande" value="bœuf" checked> Bœuf
+      <input type="radio" name="viande" value="poisson"> Poisson
+      <input type="radio" name="viande" value="poulet"> Poulet<br>
+      Personnalisez votre sandwich<br>
+      <input type="checkbox" name="ing" value="tomate"> Tomate
+      <input type="checkbox" name="ing" value="salade"> Salade
+      <input type="checkbox" name="ing" value="oignon"> Oignon
+      <input type="checkbox" name="ing" value="avec-frites"> + frites
+      <br>
+      </div>
+      
+      <div class="submit"><input type="submit" name="commander" value="Passer la commande"></div>
+    </form>
+  </body>
+</html>

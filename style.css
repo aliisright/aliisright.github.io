@@ -1,0 +1,85 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+
+.partie1 {
+  background-color: burlywood;
+  padding: 40px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 7%;
+  border-bottom-right-radius: 7%;
+  border: 0.5px solid #cc9b77;
+  border-top: 10px solid #b4730c;
+  border-bottom: 10px solid #b4730c;
+}
+
+.partie2 {
+  background-color: burlywood;
+  padding: 40px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 7%;
+  border-top-right-radius: 7%;
+  border: 0.5px solid #cc9b77;
+  border-top: 10px solid #b4730c;
+  border-bottom: 10px solid #b4730c;
+}
+
+.composants * {
+  width: 90%;
+  height: 30px;
+  margin: auto;
+}
+
+.fromage {
+  background-color: orange;
+  border-top: 5px solid #a37a0a; 
+  border-radius: 15%;
+}
+
+.oignon {
+  height: 0;
+  background-color: blueviolet;
+  border-top: 30px dotted rgba(238, 130, 238, 0.5);
+}
+
+.viande {
+  height: 40px;
+  width: 95%;
+  background-color: saddlebrown;
+  border-radius: 15%;
+  border-top: 7px solid #572c1d;
+  border-bottom: 7px solid #572c1d;
+}
+
+.tomate {
+  background-color: red;
+  border-bottom: 7px solid darkred;
+  border-radius: 15%
+}
+
+.salade {
+  background-color:linear-gradient(45deg, blue, red);
+  background-color: greenyellow;
+  border-bottom: 7px solid darkgreen;
+  border-radius: 15%
+}
+
+.submit {
+  text-align: center;
+}
