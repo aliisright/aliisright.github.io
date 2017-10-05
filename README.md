@@ -1,4 +1,5 @@
 ---
+layout: page.html
 permalink: index.html
 ---
 ## Ali HASAN :)
@@ -26,4 +27,29 @@ J'ai aussi quelques défauts : j'ai des fois du mal à gérer mon stresse et j'a
 
 - Mon projet professionnel, c'est d'intégrer une équipe travaillant dans le numérique notamment sur des sites web et des applications, leur apporter de mon expérience et apprendre de leurs expériences.
 
-[Contactez-moi](contact.html)
+
+<div class="burger">
+    <form action="https://formspree.io/alihasan.me@me.com" method="post">
+      <div class="partie1"><br>Prénom NOM <input type="text" name="contact"><br>
+      Adresse <input type="text" name="contact"><br>
+      Tel <input type= "tel" name="contact"><br>
+      Email <input type="email" name="contact"><br>
+      </div>
+      
+     <div class="composants">
+        <div class="fromage"></div>
+        <div class="oignon"></div>
+        <div class="viande"></div>
+        <div class="tomate"></div>
+        <div class="salade"></div>
+      </div> 
+      
+      <div class="partie2">
+      <br>Votre message <br>
+          <textarea name="contact" value="" rows="5" cols="50"></textarea>
+      </div>
+      <div class="submit"><input type="submit" name="contact" value="Submit"></div>
+      <input type="hidden" name="_next" value="//aliisright.github.io/reply.html">
+    </form>
+      </div>
+
