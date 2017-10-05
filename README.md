@@ -2,6 +2,7 @@
 layout: page.html
 permalink: index.html
 ---
+<section>
 ## Ali HASAN :)
 
 ## Qui suis-je ?
@@ -26,8 +27,8 @@ J'ai aussi quelques défauts : j'ai des fois du mal à gérer mon stresse et j'a
 ## Demain
 
 - Mon projet professionnel, c'est d'intégrer une équipe travaillant dans le numérique notamment sur des sites web et des applications, leur apporter de mon expérience et apprendre de leurs expériences.
-
-
+</section>
+<section>
 <div class="burger">
     <form action="https://formspree.io/alihasan.me@me.com" method="post">
       <div class="partie1"><br>Prénom NOM <input type="text" name="contact"><br>
@@ -52,4 +53,4 @@ J'ai aussi quelques défauts : j'ai des fois du mal à gérer mon stresse et j'a
       <input type="hidden" name="_next" value="//aliisright.github.io/reply.html">
     </form>
       </div>
-
+</section>
