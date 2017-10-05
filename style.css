@@ -89,7 +89,7 @@ form {
 .burger {
   max-width: 700px;
   margin: auto;
-  margin-top: 30%;
+  padding-top: 30%;
 }
 
 section {
