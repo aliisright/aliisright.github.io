@@ -31,7 +31,7 @@ h1 {
   background-color: burlywood;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
-  border-top-left-radius: 7%;
+  borde-top-left-radius: 7%;
   border-top-right-radius: 7%;
   border: 0.5px solid #cc9b77;
   border-top: 10px solid #b4730c;
@@ -89,4 +89,9 @@ form {
 .burger {
   max-width: 700px;
   margin: auto;
+  background-color: beige;
+}
+
+section {
+  height : 100vh;
 }
