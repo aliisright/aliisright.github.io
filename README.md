@@ -5,6 +5,8 @@ permalink: index.html
 
 ## Ali HASAN :)
 
+Visitez mon futur [site portfolio](https://aliisright.github.io/landingpage.html)!.
+
 ## Qui suis-je ?
 Je m'appelle Ali, j'ai 26 ans.
 
