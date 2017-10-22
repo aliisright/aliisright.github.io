@@ -1,65 +1,180 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Ali's</title>
+		<title>Ali's portfolio</title>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <!-- Latest compiled and minified CSS -->
-	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-<!-- Ma feuille de style -->
-	    <link rel="stylesheet" type="text/css" href="css/landingpage.css">
+		    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<!-- My stylesheet -->
+		    <link rel="stylesheet" type="text/css" href="style/landingpage.css">
 	</head>
-<body>
 
-		<section class="logo">
-			<div><p>Ali's</p></div>
-		</section>
+	<body>
 
-		<section class="image-top row">
-			<h4 class="texte-haut col-md-6">BIENTÔT</h4>
-		</section>
+<!--Navigation-->
+		<div class="nav-list container-fluid">
 
-		<section class="image-bottom row">
-			<div class="col-md-6">
-				<h4 class="texte-bas">MON<br>PORTFOLIO<br>EN LIGNE</h4>
+			<div class="btn-group" role="group" aria-label="...">
+			  <a href="#hello"><button type="button" class="nav-button btn-hello btn btn-default">Hello!</button></a>
+        <a href="#skills"><button type="button" class="nav-button btn-skills btn btn-default">Skills</button></a>
+			  <a href="#contact"><button type="button" class="nav-button btn-contact btn btn-default">Contact</button></a>
 			</div>
 
-			<div class="col-md-2"></div>
+		</div>
 
-				<form class ="form-group-form col-md-3" action="https://formspree.io/alihasan.me@me.com" method="post">
-					<!--<hr><p>Bonjour! Je suis Ali HASAN, dévéloppeur web, et vous êtes sur le site de mon porfolio!<p><hr>-->
+<!--Hello section-->
+		<section class="section-hello container-fluid" id="hello">
+
+			<article class="main-text container"> <!--Logo and main text-->
+					<div class="logo">
+						<h1>Ali's</h1>
+					</div>
+					<h3>BIENTÔT<br>MON PORTFOLIO<br>EN LIGNE</h3>
+			</article>
+
+      <article class="profil">
+        <h1>Ali HASAN</h1>
+        <hr>
+        <h2>Développeur web PHP/FullStackJS</h2>
+        <hr>
+      </article>
+
+		</section>
+
+<!--SKILLS SECTION-->
+    <section class="section-skills container-fluid" id="skills">
+
+        <div class="images-skills row">
+
+          <div class="mockup-icon col-md-4 col-sm-12"> <!--MOCKUP ICON-->
+            <h3>Maquettage, Plannification et UX</h3>
+            <img src="http://blog.teamtreehouse.com/wp-content/uploads/2013/10/test.png">
+          </div>
+
+          <div class="frontend-icon col-md-4 col-sm-12"> <!--FRONTEND ICON-->
+            <h3>Développement Front-end et Design UI</h3>
+            <img src="http://www.pngall.com/wp-content/uploads/2016/07/Responsive-Web-Design-PNG-File.png">
+          </div>
+
+          <div class="backend-icon col-md-4 col-sm-12">  <!--BACKEND ICON-->
+            <h3>Développement Back-end</h3>
+            <img src="https://static1.squarespace.com/static/5594e714e4b0f2448bc41c42/t/577b80be3e00bef06962f203/1467711694603/">
+          </div>
+
+        </div>
+
+        <div class="skills-description row"> <!--SKILLS DETAILS-->
+
+          <!--MAIN TEXT-->
+            <div class="skills-main-text col-md-4"></div>
+            <div class="skills-main-text col-md-4">
+              <h3>#SKILLS</h3>
+            </div>
+            <div class="skills-main-text col-md-4"></div>
+
+          <!--MOCKUP-->
+
+            <div class="skills-thumb skills-mockup col-md-3 col-sm-12">
+              <img src="https://www.canvasflip.com/images/logos/balsamiq.png">
+              <p>Balsamiq</p>
+            </div>
+            <div class="skills-thumb skills-mockup col-md-3 col-sm-12">
+              <img src="https://www.psdmockups.com/wp-content/uploads/2016/07/wireframecc.jpg">
+              <p>Wireframe.cc</p>
+            </div>
+            <div class="skills-thumb skills-mockup col-md-3 col-sm-12">
+              <img src="https://cdn.pixabay.com/photo/2016/04/28/04/37/paper-1358079_960_720.png">
+              <p>Papier + crayon!</p>
+            </div>
+            <div class="skills-thumb skills-mockup col-md-3 col-sm-12">
+              <img src="https://static1.squarespace.com/static/55f08707e4b0f3eb7034446f/t/5612c034e4b042344e823e6b/1444069429100/ic-critical+thinking.png">
+              <p>Design Thinking</p>
+            </div>
+
+          <!--FRONT-END-->
+
+            <div class="skills-thumb skills-frontend col-md-3 col-sm-12">
+              <img src="https://www.seoclerk.com/pics/want51180-1hM7ku1495216352.png">
+              <p>HTML/CSS/JS/Bootstrap</p>
+            </div>
+            <div class="skills-thumb skills-frontend col-md-3 col-sm-12">
+              <img src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg">
+              <p>Angular JS</p>
+            </div>
+            <div class="skills-thumb skills-frontend col-md-3 col-sm-12">
+              <img src="http://blog.xebia.fr/wp-content/uploads/2016/11/vuejs-logo-5.png">
+              <p>Vue.JS</p>
+            </div>
+            <div class="skills-thumb skills-frontend col-md-3 col-sm-12">
+              <img src="https://its.unl.edu/images/services/icons/CreativeCloud_Icon-F-01.png">
+              <p>Adobe Creative Suite</p>
+            </div>
+
+          <!--BACK-END-->
+
+            <div class="skills-thumb skills-backend col-md-4 col-sm-12">
+              <img src="http://www.pngall.com/wp-content/uploads/2016/05/PHP-Logo-PNG-Picture.png">
+              <p>PHP / MySQL</p>
+            </div>
+            <div class="skills-thumb skills-backend col-md-4 col-sm-12">
+              <img src="https://www.grafikart.fr/uploads/formations/10.png">
+              <p>Laravel</p>
+            </div>
+            <div class="skills-thumb skills-backend col-md-4 col-sm-12">
+              <img src="https://jf-blog.fr/wp-content/uploads/2015/09/logo_symfony.png">
+              <p>Symfony</p>
+            </div>
+
+        </div>
+
+    </section>
+
+<!--SKILLS SECTION : AFFICHAGE PETITS ECRANS-->
+
+
+
+
+<!--Contact section-->
+		<section class="section-contact container-fluid" id="contact">
+
+			<form class ="form-group-form" action="https://formspree.io/alihasan.me@me.com" method="post"> <!--contact form-->
 						<hr><p class="titre-form">CONTACTEZ-MOI</p><hr>
 					<div class="form-group">
 						<label for="name">Prénom NOM</label>
-						<input name ="contact" type="text" class="form-control" id="name" placeholder="Prénom NOM">
+						<input name ="name" type="text" class="form-control" id="name" placeholder="ex: Ali HASAN"> <!--name field-->
 					</div>
 			        <div class="form-group">
 				      	<label for="email">Votre e-mail</label>
-				      	<input name ="contact" type="email" id="email" placeholder="votre e-mail">
+				      	<input name ="_replyto" class="form-control" type="email" id="email" placeholder="ex: name@exemple.com"> <!--email field-->
 			        </div>
 			        <div>
 			        	<label for="message">Votre message</label>
-			        	<textarea name ="contact" class="form-control" id="message" rows="5" cols="50"></textarea>
+			        	<textarea name ="message" class="form-control" id="message" rows="5" cols="50" placeholder="Rédigez ici votrre message"></textarea> <!--message field-->
 			        </div>
 
-			        <button name ="contact" type="submit" class="button btn btn-success" id="inscription-alerte">Envoyer</button><hr>
-			        <input type="hidden" name="_next" value="//aliisright.github.io/reply.html">
-				      
-				</form>
-			<!--<form class="form-group col-md-3" action="https://formspree.io/alihasan.me@me.com" method="post">
-					<label for="inscription-alerte"><hr>Bonjour! Je suis Ali HASAN, dévéloppeur web, et vous êtes sur le site de mon porfolio!<hr>Soyez informé du lancement de mon site!</label>
-    				<input type="email" class="form-control case" id="inscription-alerte" placeholder="name@example.com"><br>
-    				<button type="button" class="btn btn-success" id="inscription-alerte">Je veux être informé</button><hr>
-	    				<a href="a"><img src="http://www.iconsdb.com/icons/download/gray/facebook-512.png" alt="facebook" style="width:20px;"></a>
-						<a href="a"><img src="http://www.iconsdb.com/icons/download/gray/twitter-512.png" alt="twitter" style="width:20px"></a>
-						<a href="a"><img src="http://www.iconsdb.com/icons/preview/gray/instagram-xxl.png" alt="instagram" style="width:20px"></a>
-			</form>-->
-			<div class="col-md-1"></div>
+			        <button type="submit" class="button btn btn-success" id="inscription-alerte">Envoyer</button> <!--button-->
+			        <input type="hidden" class="form-control" name="_next" value="//aliisright.github.io/reply.html">
+
+				    <hr>
+				    <div class="social"> <!--social media links-->
+						<a href="#"><img src="http://www.iconsdb.com/icons/download/gray/linkedin-3-512.png" alt="linkedin" style="width:20px;"></a>
+						<a href="#"><img src="http://www.iconsdb.com/icons/preview/gray/instagram-xxl.png" alt="instagram" style="width:20px"></a>
+						<a href="#"><img src="http://www.iconsdb.com/icons/preview/gray/behance-3-xxl.png" alt="behance" style="width:20px"></a>
+            <a href="#"><img src="http://www.iconsdb.com/icons/preview/gray/tumblr-3-xxl.png" alt="tumblr" style="width:20px"></a>
+					</div>
+					<hr>
+			</form>
+
 		</section>
 
- <!-- jQuery library -->
-        <script src=“https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js”></script>
- <!-- Latest compiled JavaScript -->
-        <script src=“https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js”></script>
-</body>
+
+	<!-- jQuery library -->
+	        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<!-- Latest compiled JavaScript -->
+	        <script src=“https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js”></script>
+	<!--My JS file-->
+          <script class="mon-js" type="text/javascript" src="js/script.js"></script>
+	</body>
 </html>

@@ -1,0 +1,247 @@
+/*--FONTS--*/
+@import url('https://fonts.googleapis.com/css?family=Lobster|Anton|Raleway:200');
+
+/*--POUR EVITER LES DEPASSEMENT--*/
+body {
+  margin: 0;
+}
+
+/*----------------------------------------------NAVIGATION----------------------------------------------*/
+
+.nav-list {
+	width: 100vw;
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	z-index: 1000; /*--POUR MAINTENIR AU 1ER PLAN--*/
+}
+
+.nav-button {
+	background-color: rgba(0,0,0,0.7);
+	border: 0.3px solid grey;
+	margin-top: 10px;
+	color: white;
+}
+
+.nav-button:hover {
+	background-color: rgba(0,153,0,0.1);
+	border: 0.3px solid green;
+	color: green;
+}
+
+/*----------------------------------------------HELLO SECTION----------------------------------------------*/
+
+.section-hello {
+	height: 100vh;
+	width: 100vw;
+	background-image: url("https://images.pexels.com/photos/373076/pexels-photo-373076.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow: scroll;
+}
+
+/*--LOGO--*/
+.logo {
+	width: 150px;
+	height: 150px;
+	min-width: 150px;
+	border: 2px solid black;
+	border-radius: 50%;
+	background-color: black;
+	opacity: 0.7;
+}
+
+.logo h1 {
+	position: relative;
+	top: 30%;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	font-family: 'Lobster' , cursive;
+}
+
+/*--MAIN TEXT--*/
+.main-text h3 {
+	font-family: 'Anton', sans-serif;
+	font-size: 50px;
+	font-weight: 900;
+	text-shadow: 0.2px 0.2px 3px grey;
+	color: black;
+	opacity: 0.7;
+}
+
+.main-text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 100px; /*--Position inititale avant l'animation JS--*/
+}
+
+.main-text .logo,h3{
+	margin: 5px;
+}
+
+/*--Profile text--*/
+.profil {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	top: 100px; /*--Position inititale avant l'animation JS--*/
+}
+
+.profile h1 {
+	font-weight: 900;
+}
+
+.profil h2 {
+	font-size: 20px;
+}
+/*----------------------------------------------SKILLS SECTION----------------------------------------------*/
+
+.section-skills {
+	height: 100vh;
+	width: 100vw;
+	overflow: scroll;
+}
+
+/*--EXP--*/
+
+.images-skills h3 {
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	margin-top: 40px;
+}
+
+/*----*/
+
+.images-skills {
+	height: 50vh;
+}
+
+.images-skills div{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center
+}
+
+.images-skills img {
+	width: 200px;
+	margin-top: 30px;
+}
+
+/*--SKILLS DESC--*/
+.skills-description{
+	background-color: lightgrey;
+	height: 50vh;
+	overflow: scroll;
+}
+
+.skills-main-text h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 100px;
+	color: darkgrey;
+	text-shadow: 0 0 3px darkgrey;
+}
+
+.skills-main-text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.skills-thumb img{
+	width: 100px;
+}
+
+.skills-thumb {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+/*--For JS: Background of tabs--*/
+.skill-icon-active {
+	background-color: lightgrey;
+}
+
+/*----------------------------------------------CONTACT SECTION----------------------------------------------*/
+
+.section-contact {
+	height: 100vh;
+	width: 100vw;
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: scroll;
+}
+
+/*--FORM--*/
+.form-group-form {
+	color: white;
+	text-shadow: 0.2px 0.2px 3px grey;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	line-height: 8px;
+}
+
+.form-group hr {
+	border-color: white;
+	opacity: 0.5;
+}
+
+.button {
+	margin-top: 10px;
+}
+
+.titre-form {
+	text-align: center;
+	letter-spacing: 10px;
+}
+
+.form-group-form hr {
+	border-color: white;
+	opacity: 0.5;
+}
+
+/*--SOCIAL MEDIA LINKS--*/
+.social {
+	text-align: center;
+}
+
+.social img {
+	margin: 0 5px;
+}
+
+
+
+@media (max-width: 768px) {
+	.main-text {
+		flex-direction: column;
+	}
+
+	.main-text h3 {
+		text-align: center;
+	}
+
+	/*--Affichage petits écrans section skills--*/
+	.section-skills {
+		display: none;
+	}
+
+	.btn-skills {
+		display: none;
+	}
+
+}
