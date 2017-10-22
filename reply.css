@@ -1,0 +1,7 @@
+/*--FONTS--*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+h3, p {
+  font-family: 'Raleway';
+  text-align: center;
+}
